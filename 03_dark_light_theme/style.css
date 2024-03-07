@@ -1,0 +1,51 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 20px;
+    padding-bottom: 70px;
+    /* Add padding to accommodate the button */
+    transition: background-color 0.3s, color 0.3s;
+    /* Smooth transition for theme change */
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+#msg {
+    font-family: monospace;
+}
+
+.light-theme {
+    color: black;
+    background-color: #f0f0f0;
+    /* Light theme colors */
+}
+
+.dark-theme {
+    color: white;
+    background-color: #333;
+    /* Dark theme colors */
+}
+
+.btn {
+    color: black;
+    background-color: #f0f0f0;
+    /* Button color matches light theme */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
