@@ -1,0 +1,10 @@
+.css-image{
+    border: 10px solid hotpink;
+}
+img[alt="css png"]{
+    border : 4px dashed green;
+}
+/* 
+<img>{
+    border: border: 4px soild red;
+} */
